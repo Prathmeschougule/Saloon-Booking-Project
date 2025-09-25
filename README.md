@@ -67,7 +67,7 @@ Update CLIENT_ID, CLIENT_SECRET, and user credentials in the user service config
 
 ### Frontend 
 1) Navigate to the frontend folder.
-2) Install dependencies: npm install
-3) Start the React application: npm start
+2) **Install dependencies**: npm install
+3) **Start the React application**: npm start
 
 
