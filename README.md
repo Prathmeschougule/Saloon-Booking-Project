@@ -61,3 +61,8 @@ The **Saloon Booking Project** is a full-stack application built with a **micros
 
 ```bash
 docker run -p 8080:8080 -e KC_BOOTSTRAP_ADMIN_USERNAME=admin -e KC_BOOTSTRAP_ADMIN_PASSWORD=admin quay.io/keycloak/keycloak:26.1.0 start-dev
+
+Configure clients, roles (CUSTOMER, SALON_OWNER), and admin in Keycloak.
+Update CLIENT_ID, CLIENT_SECRET, and user credentials in the user service configuration.
+
+### Frontend 
