@@ -59,10 +59,15 @@ The **Saloon Booking Project** is a full-stack application built with a **micros
 2. Run all microservices.
 3. Install and run Keycloak using Docker:
 
-```bash
+
 docker run -p 8080:8080 -e KC_BOOTSTRAP_ADMIN_USERNAME=admin -e KC_BOOTSTRAP_ADMIN_PASSWORD=admin quay.io/keycloak/keycloak:26.1.0 start-dev
 
 Configure clients, roles (CUSTOMER, SALON_OWNER), and admin in Keycloak.
 Update CLIENT_ID, CLIENT_SECRET, and user credentials in the user service configuration.
 
 ### Frontend 
+1) Navigate to the frontend folder.
+2) Install dependencies: npm install
+3) Start the React application: npm start
+
+
